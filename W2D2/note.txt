@@ -1,0 +1,31 @@
+copy directory 
+  copy all the files inside source
+    cp -a /source/. /dest/
+  copy source directory into destination 
+    cp -a /source /dest/
+    
+open chome's developer tools window
+  option + cmd + I
+  
+cmd + control + " " for typing emoji in atom 
+  
+@: asperand
+  
+check files in the mother folder 
+  require_relative '../board'
+  
+
+  load "board.rb"
+  load "Pieces/piece.rb"
+  load "Pieces/null_piece.rb"
+  load "Pieces/sliding_piece.rb"
+  load "display.rb"
+  load "cursor.rb"
+  
+  d = Display.new
+  d.play
+  
+  
+
+
+
